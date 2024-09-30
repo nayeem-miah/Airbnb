@@ -1,119 +1,107 @@
 [
-    {
-        "price": 150,
-        "title": "Ocean View Suite",
-        "category": "Beach",
-        "short_description": "Spacious suite with ocean views.",
-        "rating": 4.8,
-        "images": [
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300"
-        ],
-        "date": "29 September 2024"
-    },
-    {
-        "price": 99,
-        "title": "Cozy Barn Stay",
-        "category": "Barns",
-        "short_description": "Rustic charm in a cozy barn.",
-        "rating": 4.5,
-        "images": [
-            "https://images.unsplash.com/photo-1567966552357-3d058e38a9f1?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1600285118852-32e6de79b59a?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1598894116851-fd4c1f1e3ac2?fit=crop&w=400&h=300"
-        ],
-        "date": "28 September 2024"
-    },
-    {
-        "price": 120,
-        "title": "Desert Oasis Room",
-        "category": "Desert",
-        "short_description": "Beautifully decorated desert room.",
-        "rating": 4.7,
-        "images": [
-            "https://images.unsplash.com/photo-1541883727-f6e11c8a8c61?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1597002615556-d3e94c15d83b?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1587888901295-b5c8d3a48a7b?fit=crop&w=400&h=300"
-        ],
-        "date": "27 September 2024"
-    },
-    {
-        "price": 180,
-        "title": "Arctic Lodge",
-        "category": "Arctic",
-        "short_description": "Cozy lodge with arctic views.",
-        "rating": 4.9,
-        "images": [
-            "https://images.unsplash.com/photo-1517565112907-e26d3a77cf9c?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1543548868-3255c840e39f?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1578341889990-c4c84b4e0945?fit=crop&w=400&h=300"
-        ],
-        "date": "26 September 2024"
-    },
-    {
-        "price": 75,
-        "title": "Camping Cabin",
-        "category": "Camping",
-        "short_description": "Charming cabin for camping.",
-        "rating": 4.3,
-        "images": [
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1562787086828-3941dc55718c?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1560702851-44cd9cda1945?fit=crop&w=400&h=300"
-        ],
-        "date": "25 September 2024"
-    },
-    {
-        "price": 95,
-        "title": "Cave Retreat",
-        "category": "Caves",
-        "short_description": "Unique cave accommodation.",
-        "rating": 4.6,
-        "images": [
-            "https://images.unsplash.com/photo-1518657054201-dfe0c2f54c8c?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1506702315578-e9b3c4a0c1d3?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1552582778-c1e739cfbd9b?fit=crop&w=400&h=300"
-        ],
-        "date": "24 September 2024"
-    },
-    {
-        "price": 140,
-        "title": "Island Bungalow",
-        "category": "Islands",
-        "short_description": "Bungalow with beach access.",
-        "rating": 4.8,
-        "images": [
-            "https://images.unsplash.com/photo-1562467502231-b2fded7f252e?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1581883571744-c1c9b1876c66?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1587735038601-1a58d2854c3e?fit=crop&w=400&h=300"
-        ],
-        "date": "23 September 2024"
-    },
-    {
-        "price": 110,
-        "title": "Ski Lodge",
-        "category": "Skiing",
-        "short_description": "Ideal for ski enthusiasts.",
-        "rating": 4.4,
-        "images": [
-            "https://images.unsplash.com/photo-1519656812025-d9b7c4c4d12f?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1560554581-94d5f59b4f3e?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1580164287065-135a5d87c9b2?fit=crop&w=400&h=300"
-        ],
-        "date": "22 September 2024"
-    },
-    {
-        "price": 85,
-        "title": "Beachfront Villa",
-        "category": "Beach",
-        "short_description": "Luxury villa with beach access.",
-        "rating": 4.7,
-        "images": [
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1587938856452-e92dc4c9a14e?fit=crop&w=400&h=300",
-            "https://images.unsplash.com/photo-1591920809294-60d5e0b11d54?fit=crop&w=400&h=300"
-        ],
-        "date": "21 September 2024"
-    }
+  {
+    "price": 150,
+    "title": "Ocean View Suite",
+    "category": "Beach",
+    "short_description": "Spacious suite with ocean views.",
+    "rating": 4.8,
+    "images": [
+      "https://img.freepik.com/premium-photo/hotel-room-images-background-copy-space_1179130-712006.jpg?w=996",
+      "https://img.freepik.com/free-photo/modern-luxury-villa-architecture_1409-7360.jpg?t=st=1727691248~exp=1727694848~hmac=ce05328b070e374893ddebe1182340c69d6b4ca3325227ae34a518024599f5cf&w=996",
+      "https://img.freepik.com/free-photo/elegant-hotel-room-with-window_1203-1492.jpg?t=st=1727691576~exp=1727695176~hmac=24057fc073d222a9b38e89b56ee2634944744cff2c5d2a5b0f19f5e575114552&w=996"
+    ],
+    "date": "29 September 2024"
+  },
+  {
+    "price": 99,
+    "title": "Cozy Barn Stay",
+    "category": "Barns",
+    "short_description": "Rustic charm in a cozy barn.",
+    "rating": 4.5,
+    "images": [
+      "https://img.freepik.com/free-photo/tidy-hotel-room-with-brown-curtains_1203-1493.jpg?t=st=1727693880~exp=1727697480~hmac=5dd4844f434c61e0eafaac4ef12446650a696d4e54b11cc834894b8de70f40f5&w=996",
+      "https://img.freepik.com/premium-photo/bedroom-with-bed-mirror-lamp_1310673-30906.jpg?w=1060",
+      "https://img.freepik.com/free-photo/tidy-hotel-room-with-brown-curtains_1203-1493.jpg?t=st=1727693880~exp=1727697480~hmac=5dd4844f434c61e0eafaac4ef12446650a696d4e54b11cc834894b8de70f40f5&w=996"
+    ],
+    "date": "28 September 2024"
+  },
+  {
+    "price": 120,
+    "title": "Desert Oasis Room",
+    "category": "Desert",
+    "short_description": "Beautifully decorated desert room.",
+    "rating": 4.7,
+    "images": [
+      "https://img.freepik.com/free-photo/anime-style-cozy-home-interior-with-furnishings_23-2151176379.jpg?t=st=1727693993~exp=1727697593~hmac=565171da8ca4d79d7c655dc3e385e32535ae49f307ec81d966366a266544ffc0&w=996",
+      "https://img.freepik.com/premium-photo/living-room-with-couch-table-with-cactus-it_1252911-2816.jpg?w=826",
+
+      "https://img.freepik.com/free-photo/traditional-house-interior-design_23-2151050928.jpg?t=st=1727693971~exp=1727697571~hmac=853f2909b90c42fb599061509f22bbbe713539ec4ab4e418b4c3d770de6740d6&w=996"
+    ],
+    "date": "27 September 2024"
+  },
+  {
+    "price": 180,
+    "title": "Arctic Lodge",
+    "category": "Arctic",
+    "short_description": "Cozy lodge with arctic views.",
+    "rating": 4.9,
+    "images": [
+      "https://i.ibb.co/Gp0Svsb/b2c0f556-f726-4db8-985f-25a668369fe7.webp",
+      "https://i.ibb.co/BsLQWH6/992ceffe-86d2-42b0-93b8-c24427806cca.webp",
+      "https://i.ibb.co/Ptxx4q2/15110762-267f-4a08-88ae-2d9d3603284d.webp"
+    ],
+    "date": "26 September 2024"
+  },
+  {
+    "price": 75,
+    "title": "Camping Cabin",
+    "category": "Camping",
+    "short_description": "Charming cabin for camping.",
+    "rating": 4.3,
+    "images": [
+      "https://img.freepik.com/premium-photo/cabin-with-fire-place-fire-place-with-fire-place-background_1277187-37901.jpg?w=996",
+      "https://img.freepik.com/premium-photo/cozy-glamping-tent-woods-with-wooden-deck-fireplace_14117-734037.jpg?w=1060",
+      "https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694072.jpg?t=st=1727694455~exp=1727698055~hmac=4349f0960e2aa35436041c08f25469d20439d8f9d92f62520fcc5b142246a50d&w=996"
+    ],
+    "date": "25 September 2024"
+  },
+  {
+    "price": 95,
+    "title": "Cave Retreat",
+    "category": "Caves",
+    "short_description": "Unique cave accommodation.",
+    "rating": 4.6,
+    "images": [
+      "https://img.freepik.com/free-photo/affectionate-gay-couple-spending-time-together-beach_23-2150168359.jpg?t=st=1727694856~exp=1727698456~hmac=5b7e0cd3850bb75b70cb396e46f798731ddd0078ecbce2492048f8d844001a1d&w=996",
+      "https://img.freepik.com/premium-photo/two-people-standing-cave-entrance-with-tree-view-from-inside_161362-72895.jpg?w=1060",
+      "https://img.freepik.com/free-photo/two-male-hiker-near-cave-entrance_23-2148182815.jpg?t=st=1727694827~exp=1727698427~hmac=bc2258d3a54ca9f5ac58c97c2063eb974ca56cefbf7685a09329dce7d26a5837&w=996"
+    ],
+    "date": "24 September 2024"
+  },
+  {
+    "price": 140,
+    "title": "Island Bungalow",
+    "category": "Islands",
+    "short_description": "Bungalow with beach access.",
+    "rating": 4.8,
+    "images": [
+      "https://img.freepik.com/free-photo/beach-outdoors-hotel-caribbean-tree_1203-5346.jpg?t=st=1727695034~exp=1727698634~hmac=0d6175cec72ddb5526eb0bc41a3ab26efbcd383761efa8fd938c48c6d78e6d8b&w=996",
+      "https://img.freepik.com/free-photo/beautiful-overwater-bungalows-ocean-maldives-island_181624-42867.jpg?t=st=1727695020~exp=1727698620~hmac=6a2fffb800bb55f3ea8c7fb1973e84ac0ba7dbbda2083d48a068c6b71a0698f6&w=996",
+      "https://img.freepik.com/free-photo/house-palm-trees-sea_1137-130.jpg?t=st=1727694999~exp=1727698599~hmac=6f35b5f39d4a1e5da0f50ab7bfaa08487044620607cbe6d415cc01a4e15e9ea3&w=996"
+    ],
+    "date": "23 September 2024"
+  },
+  {
+    "price": 110,
+    "title": "Ski Lodge",
+    "category": "Skiing",
+    "short_description": "Ideal for ski enthusiasts.",
+    "rating": 4.4,
+    "images": [
+      "https://img.freepik.com/free-photo/view-beautiful-snowy-mountains-forests_155003-5860.jpg?t=st=1727695162~exp=1727698762~hmac=b99914e572660e91423f1cbc2916fd1beefb5b842739b09bc98f1263896a34c9&w=996",
+      "https://img.freepik.com/premium-photo/man-wearing-ski-gear-sits-snow-outside-wooden-cabin_36682-333926.jpg?w=1060",
+      "https://img.freepik.com/premium-photo/man-ski-gear-sitting-snow-with-his-snowboard-front-wooden-cabin_36682-333884.jpg?w=1060"
+    ],
+    "date": "22 September 2024"
+  }
 ]

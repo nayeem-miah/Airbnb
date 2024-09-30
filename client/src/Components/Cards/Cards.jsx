@@ -1,8 +1,6 @@
 
-import { useQuery } from '@tanstack/react-query'
-
 import { useSearchParams } from 'react-router-dom'
-import useAxiosCommon from '../../Hooks/useAxiosCommon'
+
 import Heading from '../Heading'
 import LoadingSpinner from '../LoadingSpinner'
 import Card from './Card'
@@ -12,38 +10,31 @@ import { useEffect, useState } from 'react'
 const Cards = () => {
 
   const [rooms, setRooms] = useState([]);
-  useEffect(
-    () => {
-      fetch('../../../public/categoriy.json')
-        .then(res => res.json())
-        .then(data => {
-          // console.log(data);
-          setRooms(data)
-        })
-    }, []
-  )
-console.log(rooms);
-  // use tanstack query
-  // const axiosCommon = useAxiosCommon();
+  const [loading, setLoading] = useState(true);
+  const [params] = useSearchParams();
+  const category = params.get('category');
 
-  // const [params, setParams] = useSearchParams()
-  // const category = params.get('category')
-  // console.log(category);
-  // const { data: rooms = [], isLoading } = useQuery({
-  //   queryKey: ['rooms',category],
-  //   queryFn: async () => {
-  //     const { data } = await axiosCommon.get(`/rooms?category=${category}`)
-  //     return data
-  //   }
-  // })
+  useEffect(() => {
+    setLoading(true);
+    fetch(`http://localhost:8000/rooms?category=${category}`)
+      .then(res => res.json())
+      .then(data => {
+        setRooms(data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+      });
+  }, [category]);
 
-  // console.log(rooms);
-  //   if (isLoading) return <LoadingSpinner />
+  console.log(rooms);
+
+  if (loading) return <LoadingSpinner />
 
   return (
     <Container>
       {rooms && rooms.length > 0 ? (
-        <div className='pt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-8'>
+        <div className='pt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols- xl:grid-cols-4 2xl:grid-cols-5 gap-8'>
           {rooms?.map(room => (
             <Card key={room._id} room={room} />
           ))}
