@@ -1,0 +1,119 @@
+[
+    {
+        "price": 150,
+        "title": "Ocean View Suite",
+        "category": "Beach",
+        "short_description": "Spacious suite with ocean views.",
+        "rating": 4.8,
+        "images": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300"
+        ],
+        "date": "29 September 2024"
+    },
+    {
+        "price": 99,
+        "title": "Cozy Barn Stay",
+        "category": "Barns",
+        "short_description": "Rustic charm in a cozy barn.",
+        "rating": 4.5,
+        "images": [
+            "https://images.unsplash.com/photo-1567966552357-3d058e38a9f1?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1600285118852-32e6de79b59a?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1598894116851-fd4c1f1e3ac2?fit=crop&w=400&h=300"
+        ],
+        "date": "28 September 2024"
+    },
+    {
+        "price": 120,
+        "title": "Desert Oasis Room",
+        "category": "Desert",
+        "short_description": "Beautifully decorated desert room.",
+        "rating": 4.7,
+        "images": [
+            "https://images.unsplash.com/photo-1541883727-f6e11c8a8c61?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1597002615556-d3e94c15d83b?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1587888901295-b5c8d3a48a7b?fit=crop&w=400&h=300"
+        ],
+        "date": "27 September 2024"
+    },
+    {
+        "price": 180,
+        "title": "Arctic Lodge",
+        "category": "Arctic",
+        "short_description": "Cozy lodge with arctic views.",
+        "rating": 4.9,
+        "images": [
+            "https://images.unsplash.com/photo-1517565112907-e26d3a77cf9c?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1543548868-3255c840e39f?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1578341889990-c4c84b4e0945?fit=crop&w=400&h=300"
+        ],
+        "date": "26 September 2024"
+    },
+    {
+        "price": 75,
+        "title": "Camping Cabin",
+        "category": "Camping",
+        "short_description": "Charming cabin for camping.",
+        "rating": 4.3,
+        "images": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1562787086828-3941dc55718c?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1560702851-44cd9cda1945?fit=crop&w=400&h=300"
+        ],
+        "date": "25 September 2024"
+    },
+    {
+        "price": 95,
+        "title": "Cave Retreat",
+        "category": "Caves",
+        "short_description": "Unique cave accommodation.",
+        "rating": 4.6,
+        "images": [
+            "https://images.unsplash.com/photo-1518657054201-dfe0c2f54c8c?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1506702315578-e9b3c4a0c1d3?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1552582778-c1e739cfbd9b?fit=crop&w=400&h=300"
+        ],
+        "date": "24 September 2024"
+    },
+    {
+        "price": 140,
+        "title": "Island Bungalow",
+        "category": "Islands",
+        "short_description": "Bungalow with beach access.",
+        "rating": 4.8,
+        "images": [
+            "https://images.unsplash.com/photo-1562467502231-b2fded7f252e?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1581883571744-c1c9b1876c66?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1587735038601-1a58d2854c3e?fit=crop&w=400&h=300"
+        ],
+        "date": "23 September 2024"
+    },
+    {
+        "price": 110,
+        "title": "Ski Lodge",
+        "category": "Skiing",
+        "short_description": "Ideal for ski enthusiasts.",
+        "rating": 4.4,
+        "images": [
+            "https://images.unsplash.com/photo-1519656812025-d9b7c4c4d12f?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1560554581-94d5f59b4f3e?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1580164287065-135a5d87c9b2?fit=crop&w=400&h=300"
+        ],
+        "date": "22 September 2024"
+    },
+    {
+        "price": 85,
+        "title": "Beachfront Villa",
+        "category": "Beach",
+        "short_description": "Luxury villa with beach access.",
+        "rating": 4.7,
+        "images": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1587938856452-e92dc4c9a14e?fit=crop&w=400&h=300",
+            "https://images.unsplash.com/photo-1591920809294-60d5e0b11d54?fit=crop&w=400&h=300"
+        ],
+        "date": "21 September 2024"
+    }
+]
