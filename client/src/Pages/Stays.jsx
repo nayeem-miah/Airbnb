@@ -6,7 +6,7 @@ const Stays = () => {
   return (
     <div>
       <Helmet>
-        <title>Airbnb | Stays page</title>
+        <title>Airbnb | Vacation Homes & Condo Rentals</title>
       </Helmet>
       {/* Categories section  */}
       <Categories />
