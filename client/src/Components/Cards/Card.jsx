@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { FaStar } from 'react-icons/fa';
+import { FaHeart, FaStar } from 'react-icons/fa';
 const Card = ({ room }) => {
 
   const image = room.images;
@@ -41,11 +41,15 @@ const Card = ({ room }) => {
           >
             {
               image?.map(img => (<SwiperSlide>
+                <span className=' text-gray-700 absolute text-2xl ml-60 my-2'><FaHeart />
+
+                </span>
                 <img
                   className='
                     object-cover
                     h-full
                     w-full
+
                   '
                   src={img}
                   alt='Room'
