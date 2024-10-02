@@ -13,7 +13,6 @@ import { FaHeart, FaStar } from 'react-icons/fa';
 const Card = ({ room }) => {
 
   const image = room.images;
-  console.log(image);
   return (
     <Link className='col-span-1 cursor-pointer group hover:border rounded p-2'>
       <div className='flex flex-col gap-2 w-full'>

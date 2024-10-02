@@ -27,8 +27,7 @@ const Cards = () => {
       });
   }, [category]);
 
-  console.log(rooms);
-
+  
   if (loading) return <LoadingSpinner />
 
   return (

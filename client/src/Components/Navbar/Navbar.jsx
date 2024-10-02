@@ -15,11 +15,11 @@ const Navbar = () => {
                 <Container>
                     <div className='flex flex-row  items-center justify-between gap-3 md:gap-0'>
                         {/* Logo */}
-                        <Link to='/' className='flex items-center hover:text-red-600'>
+                        <Link to='/' className='flex items-center  text-red-600'>
                             <h3 className='text-2xl font-bold italic'>A</h3>
                             <h3 className='font-bold text-xl '>airbnb</h3>
                         </Link>
-<Link className='text-center font-bold text-red-600'>Stays</Link>
+                        <Link className='text-center font-bold text-red-600'>Stays</Link>
                         {/* Dropdown Menu */}
                         <div className='relative'>
                             <div className='flex flex-row items-center gap-3'>
