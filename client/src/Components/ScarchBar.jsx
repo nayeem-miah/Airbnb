@@ -92,7 +92,7 @@ const ScarchBar = () => {
 
                         <input className="rounded-lg bg-transparent border-none outline-none placeholder-gray-500" type="text" placeholder="search here" /></button>
                 </div>
-                <button onClick={() => document.getElementById('my_modal_3').showModal()} className=" hover:border-[1px] hover:bg-slate-200 hover:rounded-full border-r font-bold"><button  >check in <p className="font-normal">add dates</p></button> <dialog id="my_modal_3" className="modal -mt-3 lg:-ml-52">
+                <button onClick={() => document.getElementById('my_modal_3').showModal()} className=" hover:border-[1px] hover:bg-slate-200 hover:rounded-full border-r font-bold"><button  >check in <p className="font-normal">add dates</p></button> <dialog id="my_modal_3" className="modal -mt-3">
                     <div className=" bg-white">
                         <DateRangePicker
                             onChange={item => setState([item.selection])}

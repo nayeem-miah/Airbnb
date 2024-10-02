@@ -16,7 +16,7 @@ const Cards = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8000/rooms?category=${category}`)
+    fetch(`https://airbnb-02-server.vercel.app/rooms?category=${category}`)
       .then(res => res.json())
       .then(data => {
         setRooms(data);
@@ -27,7 +27,7 @@ const Cards = () => {
       });
   }, [category]);
 
-  
+
   if (loading) return <LoadingSpinner />
 
   return (
